@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Titan.SchemaModel", "Titan.SchemaModel\Titan.SchemaModel.csproj", "{8DF6EF54-183A-41D3-8FF0-B6CEE9E6A1EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Titan.Generator", "Titan.Generator\Titan.Generator.csproj", "{C0D4E114-8327-47FB-934F-422B7A4DCB94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Titan.PdmSchemaReader", "Titan.PdmSchemaReader\Titan.PdmSchemaReader.csproj", "{75646118-EF3B-47B3-B023-837CE11FC3D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Titan.CSharpGenerator", "Titan.CSharpGenerator\Titan.CSharpGenerator.csproj", "{D6716DE0-2E47-4AAF-B893-8E5102E4496A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Titan.NodeJsGenerator", "Titan.NodeJsGenerator\Titan.NodeJsGenerator.csproj", "{1DE0CF6B-A05D-4F99-9F6D-460BE2C566A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Titan.Model", "Titan.Model\Titan.Model.csproj", "{36D7BF50-0625-4650-B2F0-64B0BB9A8279}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Titan.Common", "Titan.Common\Titan.Common.csproj", "{86D808AC-21AE-4597-BDD5-39089628ADA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DF6EF54-183A-41D3-8FF0-B6CEE9E6A1EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DF6EF54-183A-41D3-8FF0-B6CEE9E6A1EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DF6EF54-183A-41D3-8FF0-B6CEE9E6A1EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DF6EF54-183A-41D3-8FF0-B6CEE9E6A1EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0D4E114-8327-47FB-934F-422B7A4DCB94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D4E114-8327-47FB-934F-422B7A4DCB94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D4E114-8327-47FB-934F-422B7A4DCB94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D4E114-8327-47FB-934F-422B7A4DCB94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75646118-EF3B-47B3-B023-837CE11FC3D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75646118-EF3B-47B3-B023-837CE11FC3D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75646118-EF3B-47B3-B023-837CE11FC3D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75646118-EF3B-47B3-B023-837CE11FC3D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6716DE0-2E47-4AAF-B893-8E5102E4496A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6716DE0-2E47-4AAF-B893-8E5102E4496A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6716DE0-2E47-4AAF-B893-8E5102E4496A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6716DE0-2E47-4AAF-B893-8E5102E4496A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DE0CF6B-A05D-4F99-9F6D-460BE2C566A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DE0CF6B-A05D-4F99-9F6D-460BE2C566A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DE0CF6B-A05D-4F99-9F6D-460BE2C566A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DE0CF6B-A05D-4F99-9F6D-460BE2C566A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36D7BF50-0625-4650-B2F0-64B0BB9A8279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36D7BF50-0625-4650-B2F0-64B0BB9A8279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36D7BF50-0625-4650-B2F0-64B0BB9A8279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36D7BF50-0625-4650-B2F0-64B0BB9A8279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86D808AC-21AE-4597-BDD5-39089628ADA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86D808AC-21AE-4597-BDD5-39089628ADA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86D808AC-21AE-4597-BDD5-39089628ADA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86D808AC-21AE-4597-BDD5-39089628ADA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs25
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Titan.CSharpGenerator\\Titan.CSharpGenerator.csproj
+		SccProjectName1 = Titan.CSharpGenerator
+		SccLocalPath1 = Titan.CSharpGenerator
+		SccProjectUniqueName2 = Titan.Generator\\Titan.Generator.csproj
+		SccProjectName2 = Titan.Generator
+		SccLocalPath2 = Titan.Generator
+		SccProjectUniqueName3 = Titan.PdmSchemaReader\\Titan.PdmSchemaReader.csproj
+		SccProjectName3 = Titan.PdmSchemaReader
+		SccLocalPath3 = Titan.PdmSchemaReader
+		SccProjectUniqueName4 = Titan.SchemaModel\\Titan.SchemaModel.csproj
+		SccProjectName4 = Titan.SchemaModel
+		SccLocalPath4 = Titan.SchemaModel
+		SccProjectUniqueName5 = Titan.NodeJsGenerator\\Titan.NodeJsGenerator.csproj
+		SccProjectName5 = Titan.NodeJsGenerator
+		SccLocalPath5 = Titan.NodeJsGenerator
+		SccProjectUniqueName6 = Titan.Model\\Titan.Model.csproj
+		SccProjectName6 = Titan.Model
+		SccLocalPath6 = Titan.Model
+		SccProjectUniqueName7 = Titan.Common\\Titan.Common.csproj
+		SccProjectName7 = Titan.Common
+		SccLocalPath7 = Titan.Common
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+{
+  "name": "TitanJs",
+  "version": "0.0.0",
+  "description": "TitanJs",
+  "main": "app.js",
+  "author": {
+    "name": "Administrator",
+    "email": ""
+  }
+}
